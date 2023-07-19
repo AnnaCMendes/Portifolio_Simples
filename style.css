@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Seleciona todos os conteuúdos da página. Retirado padding e margin*/
+
+body{
+
+    box-sizing: border-box; /* Ajusta os elementos para que não ultrapassem o limite da página*/
+    height: 100vh; /* Altura vh(viewport)*/
+    color: #F6F6F6; /* Cor da Letra*/
+    background-color: #000; /* Cor da tela*/
+}
+
+.destaque{
+
+    color: #22D4FD; /* Cor da Letra*/
+}
+
+.apresentacao {
+    margin: 10% 5%;
+    display: flex; /* flexbox para alinhar os elementos */
+    align-items: center;
+    justify-content: space-between; /* flexbox para espaçar os elementos */
+  }
+
+.apresentacao__conteudo{
+    width: 615px; /* Unidade de pixel */
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Espaço entre elementos */
+    
+
+}
+.titulo{
+    font-size: 36px; /* tamanho da fontes */
+    font-family: 'Krona One', sans-serif; /* estilo de fonte */
+}
+
+.paragrafro{
+    font-size: 24px; /* tamanho da fontes */
+    font-family: 'Montserrat', sans-serif; /* estilo de fonte */
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between; /* flexbox para espaçar os elementos */
+    
+    
+}
+
+.botoes__estilo{
+    background-color: #22D4FD; /* cor de fundo */
+    width: 280px; /* largura do botão */
+    text-align: center; /* texto centralizado*/
+    border-radius: 13px; /* raio de arredondamento da borda*/
+    font-size: 24px; /* tamanho da letra*/
+    font-weight: 600; /* peso da fonte*/
+    padding: 21.5px 0; /* espaço vertical*/
+    margin: 8px; /* espaço horizontal*/
+    color:#000;  /* Cor da tela*/
+    font-family: 'Montserrat', sans-serif; /* estilo de fonte */
+    text-decoration: none; /* retirando sublinhado do hiperlink*/
+}
