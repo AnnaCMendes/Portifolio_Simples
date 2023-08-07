@@ -16,6 +16,7 @@
   
 <h2>O desafio:</h2>
 <p align="justify">O que é um Portifolio? Um portfolio é uma coleção dos melhores trabalhos de um profissional. Essa compilação de amostras de serviços ou produtos, projetos profissionais e outras conquistas, serve para exibir as habilidades e o estilo de trabalho da pessoa.</p>
+<p>Disponível apenas para Computadores.</p>
 
 --------------------------------------------------------------------------------------------------------------------
 
